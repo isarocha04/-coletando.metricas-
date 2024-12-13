@@ -1,0 +1,84 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/isabelarocha/Documents/GitHub/-coletando.metricas-/WebMetric/WebMetric.csproj": {}
+  },
+  "projects": {
+    "/Users/isabelarocha/Documents/GitHub/-coletando.metricas-/WebMetric/WebMetric.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/isabelarocha/Documents/GitHub/-coletando.metricas-/WebMetric/WebMetric.csproj",
+        "projectName": "WebMetric",
+        "projectPath": "/Users/isabelarocha/Documents/GitHub/-coletando.metricas-/WebMetric/WebMetric.csproj",
+        "packagesPath": "/Users/isabelarocha/.nuget/packages/",
+        "outputPath": "/Users/isabelarocha/Documents/GitHub/-coletando.metricas-/WebMetric/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/isabelarocha/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "OpenTelemetry": {
+              "target": "Package",
+              "version": "[1.10.0, )"
+            },
+            "OpenTelemetry.Exporter.Prometheus.AspNetCore": {
+              "target": "Package",
+              "version": "[1.10.0-beta.1, )"
+            },
+            "OpenTelemetry.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[1.10.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.100-rc.2.24474.11/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
