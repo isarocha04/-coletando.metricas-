@@ -127,7 +127,7 @@ Este guia mostra um passo a passo de como implementar a coleta de métricas em u
 ## Configuração do Grafana
 - Configurar uma fonte de dados Prometheus no Grafana.
 -  Criar gráficos para visualizar as métricas.
-![alt text](<Captura de Tela 2024-12-13 às 16.45.42.png>)
+<img width="1680" alt="Captura de Tela 2024-12-13 às 16 45 42" src="https://github.com/user-attachments/assets/4ba0cf8a-0734-4b21-9afd-54a3c09c3472" />
 ---
 
 ## Execução e Testes
